@@ -1,0 +1,83 @@
+/* Reset default margin, padding, and set box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set background color and center text */
+  body {
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  /* Styling for the main container */
+  .box {
+    width: 90%;
+    max-width: 600px;
+    background-color: #E91E63;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 10% auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #aaa;
+  }
+  
+  /* Styling for the title */
+  h1 {
+    color: #FFF;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  /* Styling for the label */
+  label {
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the date input */
+  input[type="date"], input[type="submit"] {
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  
+  /* Specific styles for the date input */
+  input[type="date"] {
+    font-size: 24px;
+    color: #E91E63;
+    outline-color: #E91E63;
+  }
+  
+  /* Styling for the submit button */
+  input[type="submit"] {
+    color: #fff;
+    background-color: #E91E63;
+    cursor: pointer;
+    margin-top:20px;
+  }
+  
+  /* Change button style when clicked */
+  input[type="submit"]:active {
+    border: 2px solid #256;
+    outline: 2px solid #fff;
+    color: #256;
+    background-color: #fff;
+  }
+  
+  /* Styling for the result text */
+  p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
